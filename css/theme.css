@@ -17,11 +17,11 @@ body{
 }
 
 header{
-    background-color: rgb(121, 0, 0);
+    background-color: rgb(128, 0, 0);
     color:#DDD;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: slategray 3px solid;
+    border-bottom: slategray 8px solid;
 }
 
 header a{
@@ -49,6 +49,7 @@ header #branding{
 header #branding h1{
     margin: 0;
     margin-top: 5px;
+    font-weight: normal;
 }
 
 header nav{
@@ -57,33 +58,70 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #EEE;
-    font-weight: bold;
+    color: #BBB;
 }
 
 header a:hover{
     color: slategray;
 }
 
-footer{
-    padding: 20px;
+header #branding, header nav,
+header nav li{
+    float:none;
+    text-align: center;
+    width: 100%;
+}
+
+header{
+    padding-bottom: 20px;
+}
+
+#boxes{
     margin-top: 20px;
+    color: #333;
+}
+
+#boxes .box{
+    float: left;
+    width: 32%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+.box h4{
+    margin:0;
+    padding:0;
+    display:inline;
+}
+
+.box ul{
+    margin-top: 0;
+    padding-top: 0;
+    text-align:left;
+}
+
+#boxes a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    padding: 5px;
+    margin-top: 5px;
     color: #EEE;
-    background-color: rgb(121, 0, 0);
+    background-color: rgb(128, 0, 0);
     text-align: center;
 }
 
 @media(max-width: 768px) {
-    header #branding, header nav,
-    header nav li{
+    #boxes .box,
+    article#main-col, aside#sidebar{
         float:none;
         text-align: center;
         width: 100%;
     }
-
-    header{
-        padding-bottom: 20px;
-    }
-    
 }
-
