@@ -114,6 +114,58 @@ header{
     text-decoration: none;
 }
 
+#taper{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(112, 128, 144, 0.4), rgba(0, 0, 0, 0));
+}
+
+
+aside#sidebar{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+article#main-col{
+    float:left;
+    width: 65%;
+}
+
+table{
+    width: 80%;
+    text-align: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid black;
+    color: #333;
+    margin: 10px;
+}
+
+h4{
+    margin-bottom: 0;
+}
+
+.dark{
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 footer{
     padding: 5px;
     margin-top: 5px;
@@ -128,5 +180,13 @@ footer{
         float:none;
         text-align: center;
         width: 100%;
+    }
+
+    
+    table{
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
