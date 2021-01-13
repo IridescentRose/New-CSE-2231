@@ -145,10 +145,19 @@ table{
     overflow: hidden;
 }
 
+tr:nth-child(even) { 
+    background-color: #BBB; 
+} 
+
 th, td {
     border: 1px solid black;
     color: #333;
-    margin: 10px;
+    margin: 0px;
+}
+
+td p {
+    margin:0;
+    padding:0;
 }
 
 h4{
@@ -162,8 +171,8 @@ h4{
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 footer{
