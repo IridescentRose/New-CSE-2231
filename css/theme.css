@@ -190,6 +190,12 @@ footer{
     color: #333;
 }
 
+#main-table h2{
+    text-align: center;
+    padding-left: 0%;
+    color: #333;
+}
+
 @media(max-width: 768px) {
     #boxes .box,
     article#main-col, aside#sidebar{
