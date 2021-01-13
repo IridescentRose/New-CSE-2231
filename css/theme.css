@@ -17,11 +17,11 @@ body{
 }
 
 header{
-    background-color: rgb(128, 0, 0);
+    background-color: #bb0000;
     color:#DDD;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: slategray 8px solid;
+    border-bottom: #666666 8px solid;
 }
 
 header a{
@@ -58,11 +58,11 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #BBB;
+    color: #bbbbbb;
 }
 
 header a:hover{
-    color: slategray;
+    color: #666666;
 }
 
 header #branding, header nav,
@@ -117,7 +117,7 @@ header{
 #taper{
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(112, 128, 144, 0.4), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(102, 102, 102, 0.4), rgba(0, 0, 0, 0));
 }
 
 
@@ -146,7 +146,8 @@ table{
 }
 
 tr:nth-child(even) { 
-    background-color: #BBB; 
+    background-color: #AAAAAA; 
+    color: white;
 } 
 
 th, td {
@@ -179,8 +180,14 @@ footer{
     padding: 5px;
     margin-top: 5px;
     color: #EEE;
-    background-color: rgb(128, 0, 0);
+    background-color: #bb0000;
     text-align: center;
+}
+
+#main-col h2{
+    text-align: center;
+    padding-left: 4%;
+    color: #333;
 }
 
 @media(max-width: 768px) {
